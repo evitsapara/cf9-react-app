@@ -8,6 +8,7 @@ const Header = () => {
                     </a>
                     <nav className="flex gap-4 text-white font-medium">
                         <a href="/">Home</a>
+
                     </nav>
                 </div>
             </header>
