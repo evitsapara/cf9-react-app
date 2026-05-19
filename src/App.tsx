@@ -3,8 +3,9 @@
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
+import PreviousValue from "./components/LessonSix/PreviousValue.tsx";
 // import WindowSize from "./components/LessonSix/WindowSize.tsx";
-import FocusInput from "./components/LessonSix/FocusInput.tsx";
+// import FocusInput from "./components/LessonSix/FocusInput.tsx";
 // import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
@@ -105,7 +106,8 @@ function App() {
                 {/*<AutoRedirect />*/}
                 {/*<AutoRedirectAdvanced />*/}
                 {/*<WindowSize />*/}
-                <FocusInput />
+                {/*<FocusInput />*/}
+                <PreviousValue />
             </Layout>
         </>
     )
